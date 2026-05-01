@@ -7,4 +7,14 @@ visible_when:
 
 # Security
 
-View vulnerability scanning and security reports for your releases.
+Review vulnerability reports and software bill of materials for your current release. Reports are generated automatically using Trivy container image scanning.
+
+<SecurityVersionSelector />
+
+## CVE Report
+
+<CVEReport />
+
+## Software Bill of Materials
+
+<SBOMReport />
