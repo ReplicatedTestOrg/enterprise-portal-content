@@ -11,10 +11,6 @@ Review vulnerability reports and software bill of materials for your current rel
 
 <SecurityVersionSelector />
 
-## CVE Report
-
 <CVEReport />
-
-## Software Bill of Materials
 
 <SBOMReport />
