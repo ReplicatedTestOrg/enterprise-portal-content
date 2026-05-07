@@ -1,23 +1,26 @@
-ChartSmith Enterprise — Onboarding Checklist
-=============================================
+ChartSmith Enterprise — Onboarding Checklist (v17)
+====================================================
 
-This is a sample downloadable asset for testing the EP v2 asset feature.
+This is the v17 onboarding checklist. The v18 release adds steps for the
+new security center; v17 ships with the legacy security workflow.
 
 Pre-Installation:
-  [ ] Review system requirements
+  [ ] Review v17 system requirements (KOTS >= 1.100, Helm >= 3.10)
   [ ] Provision infrastructure (Terraform modules or manual)
   [ ] Configure DNS records
   [ ] Obtain TLS certificates
+  [ ] Confirm air-gapped registry access (v17 supports legacy push flow)
 
 Installation:
   [ ] Choose installation method (Linux / Helm)
-  [ ] Deploy ChartSmith
+  [ ] Deploy ChartSmith v17
   [ ] Verify pod health
-  [ ] Run smoke tests
+  [ ] Run v17 smoke tests
+  [ ] Verify legacy CVE export (v18+ replaces this with the security center)
 
 Post-Installation:
   [ ] Configure SSO/LDAP integration
   [ ] Set up monitoring and alerting
   [ ] Configure backup schedule
-  [ ] Complete security hardening checklist
-  [ ] Train operations team
+  [ ] Complete v17 security hardening checklist
+  [ ] Train operations team on the v17 admin console
