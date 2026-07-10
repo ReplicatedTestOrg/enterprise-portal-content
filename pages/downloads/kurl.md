@@ -27,19 +27,3 @@ Select a version to download. The kURL Installer Bundle and Application Airgap B
 <Tip title="Verify the Bundle">
 Verify the Application Airgap Bundle checksum against the value shown next to the download before transferring it to an air-gapped host.
 </Tip>
-
-## Install
-
-Transfer the installer bundle to your host, extract it, and run the installer as root.
-
-<Warning>
-Run the installer as root or with sudo. The kURL installer provisions system-level Kubernetes components and will fail without elevated privileges.
-</Warning>
-
-<CommandBlock>
-# Extract the kURL installer bundle
-tar xzf <app-slug>.tar.gz
-
-# Run the installer (air gap)
-cat install.sh | sudo bash -s airgap
-</CommandBlock>

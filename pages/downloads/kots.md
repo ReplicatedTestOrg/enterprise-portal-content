@@ -27,20 +27,3 @@ Select a version to download. The Admin Console Bundle and Application Airgap Bu
 <Tip title="Verify the Bundle">
 After downloading the Application Airgap Bundle, verify its checksum against the value shown next to the download before pushing it to your registry.
 </Tip>
-
-## Install
-
-Install the KOTS CLI, then install the application into your cluster from the air gap bundle. Replace the placeholders with your own namespace, registry, and license file.
-
-<CommandBlock>
-# Install the KOTS CLI plugin (from the KOTS CLI download above)
-tar xzf kots_linux_amd64.tar.gz
-sudo mv kots /usr/local/bin/kubectl-kots
-
-# Install the admin console and application from the downloaded bundle
-kubectl kots install <app-slug> \
-  --namespace <namespace> \
-  --license-file ./license.yaml \
-  --airgap-bundle ./<app-slug>.airgap \
-  --kotsadm-registry <your-private-registry>
-</CommandBlock>
