@@ -19,7 +19,3 @@ Provision a new embedded Kubernetes cluster with the kURL installer and deploy y
 Select a version to download. The kURL Installer Bundle and Application Airgap Bundle are required; the KOTS, Preflight, and Support Bundle CLIs are optional workstation tools.
 
 <KurlDownloadAssets />
-
-<Tip title="Verify the Bundle">
-Verify the Application Airgap Bundle checksum against the value shown next to the download before transferring it to an air-gapped host.
-</Tip>
