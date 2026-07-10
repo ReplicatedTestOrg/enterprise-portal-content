@@ -19,14 +19,17 @@ navigation:
         visible_when:
           entitlements:
             - isHelmInstallEnabled
-      - title: KOTS (Existing Cluster)
-        page: pages/installation/kots.md
+  - title: Downloads
+    icon: download
+    items:
+      - title: KOTS
+        page: pages/downloads/kots.md
         visible_when:
           entitlements:
             - isKotsInstallEnabled
             - isAirgapSupported
       - title: kURL
-        page: pages/installation/kurl.md
+        page: pages/downloads/kurl.md
         visible_when:
           entitlements:
             - isKurlInstallEnabled
