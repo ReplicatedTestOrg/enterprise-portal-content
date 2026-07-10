@@ -10,10 +10,6 @@ visible_when:
 
 Provision a new embedded Kubernetes cluster with the kURL installer and deploy your application into it. The kURL Installer Bundle includes the Kubernetes runtime, the KOTS admin console, and all required add-ons.
 
-<Note title="Air Gap Downloads">
-These downloads support air-gapped installations. Transfer the installer bundle to your target host before running the installer.
-</Note>
-
 ## Download License
 
 <LicenseDownload />

@@ -10,10 +10,6 @@ visible_when:
 
 Install your application into an existing Kubernetes cluster using the Replicated KOTS admin console. Download your license and the assets for the version you want to install.
 
-<Note title="Air Gap Downloads">
-These downloads support air-gapped installations. If your cluster has outbound internet access, you can install directly from the online registry instead of pushing the bundle yourself.
-</Note>
-
 ## Download License
 
 <LicenseDownload />
