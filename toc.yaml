@@ -9,7 +9,7 @@ navigation:
             - isEmbeddedClusterDownloadEnabled
       - title: Release History
         page: pages/installation/release-history.md
-      - title: Linux
+      - title: Linux (Embedded Cluster)
         page: pages/installation/linux.md
         visible_when:
           entitlements:
@@ -20,7 +20,7 @@ navigation:
           entitlements:
             - isKurlInstallEnabled
             - isAirgapSupported
-      - title: Helm
+      - title: Existing Cluster (Helm)
         page: pages/installation/helm.md
         visible_when:
           entitlements:
