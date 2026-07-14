@@ -1,12 +1,12 @@
 ---
-title: kURL
+title: Linux (kURL)
 visible_when:
   entitlements:
     - isKurlInstallEnabled
     - isAirgapSupported
 ---
 
-# kURL
+# Linux (kURL)
 
 Provision a new embedded Kubernetes cluster with the kURL installer and deploy your application into it. The kURL Installer Bundle includes the Kubernetes runtime, the KOTS admin console, and all required add-ons.
 

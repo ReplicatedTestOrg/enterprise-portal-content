@@ -1,12 +1,12 @@
 ---
-title: KOTS
+title: Existing Cluster (KOTS)
 visible_when:
   entitlements:
     - isKotsInstallEnabled
     - isAirgapSupported
 ---
 
-# KOTS
+# Existing Cluster (KOTS)
 
 Install your application into an existing Kubernetes cluster using the Replicated KOTS admin console. Download your license and the assets for the version you want to install.
 
