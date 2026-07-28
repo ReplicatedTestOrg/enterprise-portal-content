@@ -1,4 +1,12 @@
 navigation:
+  - title: Automation
+    icon: terminal
+    items:
+      - title: API Reference
+        page: pages/automation/api-reference.md
+      - title: Workflow Guide
+        page: pages/automation/workflow-guide.md
+
   - title: Installation
     icon: rocket
     items:
@@ -31,35 +39,27 @@ navigation:
           entitlements:
             - isKotsInstallEnabled
             - isAirgapSupported
-  - title: Operations
-    icon: wrench
-    items:
-      - title: Security
-        page: pages/operations/security.md
-        visible_when:
-          entitlements:
-            - isSecurityCenterEnabled
-      - title: Support Bundles
-        page: pages/operations/bundles/bundles.md
-      - title: Upload Bundles
-        page: pages/operations/bundles/uploaded.md
 
   - title: Updates
     icon: refresh-cw
-    items:
-      - title: Checking for Updates
-        page: pages/updates/checking.md
+    page: pages/updates/instances.md
+
+  - title: Security
+    icon: shield
+    page: pages/security.md
+    visible_when:
+      entitlements:
+        - canViewSecurity
 
   - title: Support
     icon: life-buoy
     items:
+      - title: Support Bundles
+        page: pages/support/bundles.md
       - title: FAQ
         page: pages/support/faq.md
-      - title: Downloadable Resources
-        page: pages/support/resources.md
       - title: Contact Support
         page: pages/support/contact.md
 
 overrides:
   home: pages/home.md
-
