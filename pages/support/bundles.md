@@ -12,10 +12,6 @@ Generate a support bundle whenever you encounter unexpected behavior. Bundles ca
 
 ## Upload an Existing Bundle
 
-<Note>
-Support bundles contain cluster state, application logs, and configuration details. They do not include secrets or sensitive data. You can safely share them with your support team.
-</Note>
-
 <SupportBundleUpload />
 
 ## Uploaded Bundles
